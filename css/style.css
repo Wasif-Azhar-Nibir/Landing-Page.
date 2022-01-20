@@ -1,0 +1,438 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;	
+}
+
+header{
+	width: 100%;
+	float: left;
+	background-color: #FFFFFF;
+	padding: 15px 0px;
+	position: fixed;
+}
+
+.logo{
+
+	width: 20%;
+	float: left;	
+}
+
+.logo img{
+	width: 100px;
+}
+
+.menu{
+	width: 70%;
+    float: left;
+    margin: -32px 0px 5px -6px;
+    padding: 4px 5px 0px 0px;
+}	
+}
+
+.menu nav ul{
+	list-style: none;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    margin: 0px 0px 0px 133px;
+}
+
+.menu nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.menu nav ul li a:hover{
+	color: #FF284F;	
+}
+.icons{
+	width: 30%;
+    float: left;
+    margin: -26px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.icons ul{
+	list-style: none;
+}
+
+.icons ul li{
+    display: inline-block;
+    margin: 0px 18px;	
+}
+
+.icons ul li a{
+	
+}
+.fa.fa-facebook{
+    background: #0376F6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 18%;
+}
+.fa.fa-linkedin{
+    background: #0077B5;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 18%;
+}
+.fa.fa-twitter{
+	background: #5DA9DD;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 18%
+}
+.fa.fa-youtube-play{
+	background: #FD0101;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 18%;	
+}
+.banner{
+	width: 100%;
+	float: left;
+}
+.banner-one{
+    background: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    float: left;
+}
+
+.banner-two {
+    padding: 5px;
+    margin: 60px;
+    width: 45%;
+}
+
+.banner-two h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 8px;
+    color: white;
+}
+
+.banner-two button {
+    text-transform: uppercase;
+    margin: 11px 61px 0px 8px;
+    padding: 10px;
+    background: #E51E25;
+    border-radius: 11px;
+    color: white;
+    cursor: pointer;
+}
+
+.courses{
+    width: 100%;
+    float: left; 
+}
+
+.courses-one {
+    background-color: #B7CCD3;
+    height: 270px;
+    width: 24%;
+    float: left;
+    margin: 18px 10px 0px 0;
+}
+
+.courses-one ul li {
+    color: #000000;
+    list-style: square;
+    margin: 10px 0px 16px 80px
+}
+
+.courses-one ul button {
+    text-transform: uppercase;
+    background: #228F22;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 0px 0px 0px 115px;
+    cursor: pointer;
+}
+
+.courses-one h2 {
+    color: #000000;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.courses-two{
+    background-color: #B7CCD3;
+    height: 270px;
+    width: 24%;
+    float: left;
+    margin: 18px 10px 0px 0;
+}
+
+.courses-two ul li{
+    color: #000000;
+    list-style: square;
+    margin: 10px 0px 16px 80px
+}
+
+.courses-two ul button{
+    text-transform: uppercase;
+    background: #228F22;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 62px 0px 0px 115px;
+    cursor: pointer;
+}
+
+.courses-two h2{
+    color: #000000;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.courses-three{
+    background-color: #B7CCD3;
+    height: 270px;
+    width: 24%;
+    float: left;
+    margin: 18px 10px 0px 0;
+}
+
+.courses-three ul li{
+    color: #000000;
+    list-style: square;
+    margin: 10px 0px 16px 80px
+}
+
+.courses-three ul button{
+    text-transform: uppercase;
+    background: #228F22;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 62px 0px 0px 115px;
+    cursor: pointer;
+}
+
+.courses-three h2{
+    color: #000000;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+.courses-four{
+    background-color: #B7CCD3;
+    height: 270px;
+    width: 24%;
+    float: left;
+    margin: 18px 10px 0px 0;
+}
+
+.courses-four ul li{
+    color: #000000;
+    list-style: square;
+    margin: 10px 0px 16px 80px
+}
+
+.courses-four ul button{
+    text-transform: uppercase;
+    background: #228F22;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 30px 0px 0px 115px;
+    cursor: pointer;
+}
+
+.courses-four h2{
+    color: #000000;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+.title{
+    width: 100%;
+    float: left; 
+}
+.title-one{
+    height: 60px;
+    width: 100%;
+    float: left;
+}
+.title-one p {
+    color: blue;
+    margin: 20px 0px 0px 550px;
+    font-size: 28px;
+}
+.blog{
+    width: 100%;
+    float: left; 
+}
+.blog-one{
+    height: 150px;
+    width: 50%;
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+.blog-one a {
+    text-decoration: none;
+    font-size: 35px;
+    float: left;
+}
+
+.blog-one p {
+    color: black;
+    font-size: 20px;
+    padding: 5px 12px 4px 5px;
+    float: left;
+}
+
+.blog-one button {
+    padding: 2px;
+    margin: 5px 0px 0px 225px;
+    background: green;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.blog-two{
+    height: 150px;
+    width: 50%;
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+.blog-two a{
+    text-decoration: none;
+    font-size: 35px;
+    float: left;
+}
+
+.blog-two p {
+    color: black;
+    font-size: 20px;
+    padding: 5px 12px 4px 0px;
+    float: left;
+}
+
+.blog-two button{
+    padding: 2px;
+    margin: 5px 0px 0px 225px;
+    background: green;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.statistics{
+    width: 100%;
+    float: left; 
+}
+.statistics-one {
+    background-color: #DCDCDC;
+    height: 150px;
+    width: 100%;
+    float: left;
+}
+
+.statistics-one i {
+    margin: 0px 0px 0px 507px;
+}
+
+.statistics-one p {
+    text-align: center;
+    margin: 25px 0px 0px -5px;
+}
+.title{
+    width: 100%;
+    float: left; 
+}
+.logo{
+    width: 100%;
+    float: left; 
+}
+.logo-one {
+    background-color: #ffff;
+    height: 150px;
+    width: 100%;
+    float: left;
+}
+.logo-one img{
+    width: 15%;
+    margin: 8px 0px 0px 470px;
+}
+
+.footer-bottom{
+    width: 100%;
+    float: left;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+   float: left;
+   font-size: 14px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+   color: white;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.footer-bottom-one p{
+    float: right;
+    font-size: 24px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+    margin: -56px 170px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.footer-icons{
+    
+    float: right;
+    margin: -54px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.footer-icons ul{
+    list-style: none;
+}
+
+.footer-icons ul li{
+    display: inline-block;
+    margin: 0px 18px;   
+}
+
+.footer-icons ul li a{
+    
+}
+.fa.fa-cc-mastercard{
+    background: #0376F6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 18%;
+}
+.fa.fa-cc-visa{
+    background: #0376F6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 18%;
+}
